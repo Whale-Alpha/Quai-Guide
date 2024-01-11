@@ -6,6 +6,8 @@
 
 3. Daha sonra kurulum scriptini çalıştırıp cüzdan adresinizle birlikte , Name ve password verilerini girin
 
-wget -O setup.sh https://raw.githubusercontent.com/Whale-Alpha/Quai-Guide/main/setup.sh && chmod +x setup.sh && ./setup.sh
+<pre class="notranslate"><code>wget -O setup.sh https://raw.githubusercontent.com/Whale-Alpha/Quai-Guide/main/setup.sh && chmod +x setup.sh && ./setup.sh
+</code></pre>
+
  
 4. Node'unuzun orada olup olmadığını kontrol etmek için https://stats.quai.network/ adresine bakın!
