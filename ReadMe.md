@@ -1,4 +1,4 @@
-# Quai Network'e Kayıt Rehberi
+# Quai Network
 
 1. Kullanıcı adı ve şifre almak için https://stats.colosseum.quai.network/ adresini ziyaret edin. Mail adresinize gönderilen Signup anahtarınız yalnızca bir kez çalışacaktır! Bu anahtarı gönderirken oluşturduğunuz kullanıcı adı ve şifreyi sakladığınızdan emin olun.
  
