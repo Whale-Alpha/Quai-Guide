@@ -1,5 +1,16 @@
 # Quai Network'e Kayıt Rehberi
 
+## Sistem Gereksinimleri
+
+* CPU 8+ Cores
+* 32GB+ RAM
+* 2TB SSD
+* 10+ MBit/sec Internet service
+
+** Sunucu için Hetzner AX41 2TB öneriyoruz.  **
+
+<a href="https://www.hetzner.com/dedicated-rootserver/matrix-ax"> Hetzner AX41 </a>
+
 1. Kullanıcı adı ve şifre almak için https://stats.colosseum.quai.network/ adresini ziyaret edin. Mail adresinize gönderilen Signup anahtarınız yalnızca bir kez çalışacaktır! Bu anahtarı gönderirken oluşturduğunuz kullanıcı adı ve şifreyi sakladığınızdan emin olun.
  
 2. https://koalawallet.io/ adresinden Koala Wallet'ı kullanarak Quai adresi alın.
