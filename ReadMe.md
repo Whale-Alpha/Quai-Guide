@@ -22,6 +22,7 @@
 <pre class="notranslate"><code>wget -O setup.sh https://raw.githubusercontent.com/Whale-Alpha/Quai-Guide/main/setup.sh && chmod +x setup.sh && ./setup.sh
 </code></pre>
 
+<br>
  
 5. Node'unuzun orada olup olmadığını kontrol etmek için https://stats.quai.network/ adresine bakın!
 
