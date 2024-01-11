@@ -211,7 +211,7 @@ rm -rf ~/.quai
 wget http://backup.colosseum.quai.network/quai_colosseum_backup.tar.zst
 tar -I 'zstd -T0' -xvf quai_colosseum_backup.tar.zst
 cp -r quai-colosseum-backup ~/.quai
-
+rm -rf quai-colosseum-backup quai_colosseum_backup.tar.zst
 
 make go-quai
 make run
