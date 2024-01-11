@@ -15,10 +15,12 @@
  
 2. https://koalawallet.io/ adresinden Koala Wallet'ı kullanarak Quai adresi alın.
 
-3. Daha sonra kurulum scriptini çalıştırıp cüzdan adresinizle birlikte , Name ve password verilerini girin
+3. Daha sonra windows için putty programını kullanarak bağlanın , mac os için ise terminalden ssh root@ipadresi şeklinde bağlabilirsiniz. 
+
+4. Kurulum scriptini çalıştırıp cüzdan adresinizle birlikte , Name ve password verilerini girin
 
 <pre class="notranslate"><code>wget -O setup.sh https://raw.githubusercontent.com/Whale-Alpha/Quai-Guide/main/setup.sh && chmod +x setup.sh && ./setup.sh
 </code></pre>
 
  
-4. Node'unuzun orada olup olmadığını kontrol etmek için https://stats.quai.network/ adresine bakın!
+5. Node'unuzun orada olup olmadığını kontrol etmek için https://stats.quai.network/ adresine bakın!
