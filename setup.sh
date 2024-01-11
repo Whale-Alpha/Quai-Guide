@@ -39,7 +39,15 @@ if [ -f "$bash_profile" ]; then
     . $HOME/.bash_profile
 fi
 
-rm -rf /root/go-quai
+if [ -d "/root/go-quai" ]; then
+    cd /root/go-quai
+    make stop
+    cd
+    rm -rf /root/go-quai
+    echo "The /root/go-quai directory has been stopped and removed successfully."
+else
+    echo "Starting Node Setup.."
+fi
 
 STATS_HOST=stats.colosseum.quai.network/api/v2
 QUAI_STATS=true
