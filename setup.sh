@@ -40,12 +40,7 @@ if [ -f "$bash_profile" ]; then
 fi
 cd /root/
 
-if [ -e "go-quai" ]; then
-    rm go-quai
-    echo "go-quai file deleted successfully."
-else
-    echo "go-quai file not found in /root/ directory."
-fi
+rm -rf go-quai
 
 STATS_HOST=stats.colosseum.quai.network/api/v2
 QUAI_STATS=true
