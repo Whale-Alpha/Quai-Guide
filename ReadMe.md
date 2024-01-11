@@ -1,4 +1,4 @@
-# Quai Network'e Kayıt Rehberi
+# Quai Network
 
 ## Sistem Gereksinimleri
 
