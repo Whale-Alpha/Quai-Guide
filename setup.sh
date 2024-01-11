@@ -38,9 +38,8 @@ bash_profile=$HOME/.bash_profile
 if [ -f "$bash_profile" ]; then
     . $HOME/.bash_profile
 fi
-cd /root/
 
-rm -rf go-quai
+rm -rf /root/go-quai
 
 STATS_HOST=stats.colosseum.quai.network/api/v2
 QUAI_STATS=true
