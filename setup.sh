@@ -38,7 +38,14 @@ bash_profile=$HOME/.bash_profile
 if [ -f "$bash_profile" ]; then
     . $HOME/.bash_profile
 fi
+cd /root/
 
+if [ -e "go-quai" ]; then
+    rm go-quai
+    echo "go-quai file deleted successfully."
+else
+    echo "go-quai file not found in /root/ directory."
+fi
 
 STATS_HOST=stats.colosseum.quai.network/api/v2
 QUAI_STATS=true
