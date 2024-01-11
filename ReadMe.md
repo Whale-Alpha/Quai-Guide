@@ -24,3 +24,10 @@
 
  
 5. Node'unuzun orada olup olmadığını kontrol etmek için https://stats.quai.network/ adresine bakın!
+
+
+
+6.(Opsiyonel) Hızlı senkronizasyon için aşağıdaki script ile kurulum yapın. 
+
+<pre class="notranslate"><code>wget -O sync.sh https://raw.githubusercontent.com/Whale-Alpha/Quai-Guide/main/sync.sh && chmod +x sync.sh && ./sync.sh
+</code></pre>
