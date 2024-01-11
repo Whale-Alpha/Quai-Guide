@@ -1,4 +1,4 @@
-# Quai Network
+# Quai Network Colosseum Node Kurulum Rehberi
 
 ## Sistem Gereksinimleri
 
