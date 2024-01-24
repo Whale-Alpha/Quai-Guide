@@ -208,10 +208,14 @@ CUSTOM_DATA_DIR=false
 DATA_DIR=' > network.env
 
 rm -rf ~/.quai
-wget http://backup.colosseum.quai.network/quai_colosseum_backup.tar.zst
-tar -I 'zstd -T0' -xvf quai_colosseum_backup.tar.zst
-cp -r quai-colosseum-backup ~/.quai
-rm -rf quai-colosseum-backup quai_colosseum_backup.tar.zst
+apt-get install transmission-daemon -y
+
+/etc/init.d/transmission-daemon stop
+transmission-daemon --no-auth
+transmission-remote -a quai_colosseum_backup-1-16-24.tar.zst.torrent 
+tar -I 'zstd -T0' -xvf quai_colosseum_backup-1-16-24.tar.zst
+cp -r quai_colosseum_backup-1-16-24  ~/.quai
+rm -rf quai-colosseum-backup quai_colosseum_backup-1-16-24.tar.zst
 
 make go-quai
 make run
